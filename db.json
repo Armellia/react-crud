@@ -1,0 +1,49 @@
+{
+  "books": [
+    {
+      "title": "buku bima",
+      "author": "bima ananta",
+      "id": 5
+    },
+    {
+      "title": "buku bima",
+      "author": "bima ananta",
+      "id": 6
+    },
+    {
+      "title": "buku bima",
+      "author": "bima ananta",
+      "id": 7
+    },
+    {
+      "title": "buku bima",
+      "author": "bima ananta",
+      "id": 8
+    },
+    {
+      "title": "bima",
+      "author": "bima",
+      "id": 9
+    },
+    {
+      "title": "bima",
+      "author": "bimaaa",
+      "id": 10
+    },
+    {
+      "title": "buku kesekian",
+      "author": "author kesekian",
+      "id": 11
+    },
+    {
+      "title": "judul buku",
+      "author": "judul author",
+      "id": 12
+    },
+    {
+      "title": "Buku 3",
+      "author": "Author 4",
+      "id": 13
+    }
+  ]
+}
