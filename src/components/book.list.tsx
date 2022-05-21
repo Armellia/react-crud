@@ -37,6 +37,14 @@ class BookList extends React.Component<any,any>{
             books:filter
         })
     }
+    onSearch=(title:any)=>{
+        console.log(title)
+        let search:any=[];
+        bookServices.getTtitle(title).then((value:any)=>{
+            search=value.data
+            this.setState({books:search})
+        })
+    }
     render(): React.ReactNode {
         const {books,isLoading,error}=this.state
         if(error){
@@ -49,7 +57,7 @@ class BookList extends React.Component<any,any>{
         return(
             <div className="m-auto w-75">
         <div className="list row">
-        <BookSearch/>
+        <BookSearch searched={this.onSearch}/>
         <div className="col">
           
           <table className="table table-hover">
